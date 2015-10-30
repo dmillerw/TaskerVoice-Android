@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" formatted="false">Tasker Voice</string>
+    <string name="title_activity_edit">Edit</string>
+    <string name="setup" formatted="false">You\'re all setup and ready to rock!\n\nTaskerVoice will now show up as a Plugin within Tasker when adding a new event profile</string>
+    <string name="message">Message</string>
+    <string name="type">Type</string>
+    <string name="wild">Wildcard</string>
+    <string name="exact_match">Exact Match</string>
+    <string name="blurb" formatted="false"><![CDATA[Usage is simple. Supply the desired target text. If exact match is not enabled, any message sent from the Pebble that contains the desired text will trigger an event. Otherwise, the message must match exactly (ignoring casing)]]></string>
+    <string name="blurb_var" formatted="false">Two variables will also be available to whatever task executes as a result of the event.\n\n%tv_set will return whatever text was supplied when the event was initially configured\n\n%tv_actual will return whatever message the Pebble interpreted\n\n%tv_split will return an array of all the words found in %tv_actual</string>
+</resources>
